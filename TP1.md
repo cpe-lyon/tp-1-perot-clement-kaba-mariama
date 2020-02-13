@@ -9,7 +9,7 @@
 2. * cd ./ 
 3. * cd ../ 
 4. * cd - 
-5. On n'a pas la permission  pour (## cd root)  
+5. On n'a pas la permission  pour (cd root)  
 6. sudo c'est poour etre en mode admin et pouvoir avoir la permission 
 7. Pour crée un dossier *MKdir* un fichier (nano)
 8. impossible car nous sommes pas dans le dossier 
@@ -19,5 +19,12 @@
 
 # Commandes importantes
 1. Pour afficher la date  la commande  (date) , la commande *time* sert  a determine rle temps d'execution de certains commande
-2. *ls liste les fichiers present dans le fichier  et *la* liste en plus tout les fichiers (.) abréviation des *ls -a 
+2. (ls) liste les fichiers present dans le fichier  et *la* liste en plus tout les fichiers (.) abréviation des *ls -a 
 3.
+4. (ll) commande liste les fichiers et leurs droits  ,non pas de rentrer de manuel car un allias
+5. pour afficher les contenus du dossier /bin : (ls /bin)
+6. (ls) permet de lister le contenue d'un dossier
+7. la commande  (pwd)
+8. a commande (echo 'yo' > plop) crée un ficher avec un contenu *yo* le taper 2* permet de remplacer la ligne  déja existant
+9. echo 'yo' >> plop mets à la suite dans e fichier 
+10 
