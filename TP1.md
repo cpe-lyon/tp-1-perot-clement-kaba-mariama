@@ -20,7 +20,7 @@
 # Commandes importantes
 1. Pour afficher la date  la commande  (date) , la commande *time* sert  a determine rle temps d'execution de certains commande
 2. (ls) liste les fichiers present dans le fichier  et *la* liste en plus tout les fichiers (.) abréviation des *ls -a 
-3. 
+3. le programme ls se situe dans  (/usr/bin/ls) pour le trouver *which ls
 4. (ll) commande liste les fichiers et leurs droits  ,non pas de rentrer de manuel car un allias
 5. pour afficher les contenus du dossier /bin : (ls /bin)
 6. (ls) permet de lister le contenue d'un dossier
@@ -28,4 +28,6 @@
 8. la commande (echo 'yo' > plop) crée un ficher avec un contenu *yo* le taper 2fois permet de remplacer la ligne  déja existant
 9. (echo 'yo' >> plop) crée le fichier avec comme contenu *yo* le taper 2fois ajoute dans le contenu de plop  un second *yo*dans le fichier 
 10. la commande (file) permet de connaitre le type de fichier 
-
+11. lorsqu'on crée un lien entre deux fichier quand on change le contenu de l'un l'autre change mais lorsqu'on supprime un e lien se rompe mais que le fichier supprimer disparait.
+12.  la commande (ln -s titi tutu) crée un lien symbolique, meme  effet que la question 11 mais dans ce cas lorsqu'on supprime  titi , le  fichier n'est plus accessible (broken symbolic link )
+13.  
