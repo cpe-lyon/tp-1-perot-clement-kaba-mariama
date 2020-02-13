@@ -40,4 +40,6 @@
 
 17. Aﬀichez seulement la première colonne triée par ordre alphabétique inverse
 *  cat /etc/passwd|cut d: -f1  | sort -r
-18. 
+18. la commande nous donne le nombre d’utilisateurs ayant un compte sur cette machine
+ *cat /etc/passwd | awk -F: '{print $ 1}'
+ 19. 
