@@ -33,6 +33,9 @@
 13. les accourcis clavier permettent d’interrompre (ctrl +s)  et reprendre le défilement à l’écran (ctrl + Q)
 14. les 5 premières lignes du fichier/var/log/syslog 
   * head /var/log/syslog -n 5
-  
+   * (sed -n "10,20 p" /var/log/syslog) les lignes 10 à 20
   * (tail /var/log/syslog -n 15 )  les 15 derniers
-  * (sed -n "10,20 p" /var/log/syslog) les lignes 10 à 20
+  15. la commande (dmesg | less )  affiche le kernel ring buffer avec moins d'info 
+  16. 
+ 
+  
