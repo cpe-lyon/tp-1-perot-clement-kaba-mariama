@@ -41,6 +41,8 @@
 17. Aﬀichez seulement la première colonne triée par ordre alphabétique inverse
 *  cat /etc/passwd|cut d: -f1  | sort -r
 18. la commande nous donne le nombre d’utilisateurs ayant un compte sur cette machine
- *cat /etc/passwd | awk -F: '{print $ 1}'
+ * cat /etc/passwd | awk -F: '{print $ 1}'
  19. Combien de pages de manuel comportent le mot-cléconversiondans leur description
-  *man -k conservation | wc -l 
+  * man -k conservation | wc -l 
+  20. la commande (find), recherchez tous les fichiers se nommantpasswdprésents sur la machine
+  * sudo find -name passwd |wc -l
