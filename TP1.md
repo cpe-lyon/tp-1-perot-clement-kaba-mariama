@@ -20,11 +20,12 @@
 # Commandes importantes
 1. Pour afficher la date  la commande  (date) , la commande *time* sert  a determine rle temps d'execution de certains commande
 2. (ls) liste les fichiers present dans le fichier  et *la* liste en plus tout les fichiers (.) abréviation des *ls -a 
-3.
+3. 
 4. (ll) commande liste les fichiers et leurs droits  ,non pas de rentrer de manuel car un allias
 5. pour afficher les contenus du dossier /bin : (ls /bin)
 6. (ls) permet de lister le contenue d'un dossier
 7. la commande  (pwd)
-8. a commande (echo 'yo' > plop) crée un ficher avec un contenu *yo* le taper 2* permet de remplacer la ligne  déja existant
-9. echo 'yo' >> plop mets à la suite dans e fichier 
-10 
+8. la commande (echo 'yo' > plop) crée un ficher avec un contenu *yo* le taper 2fois permet de remplacer la ligne  déja existant
+9. (echo 'yo' >> plop) crée le fichier avec comme contenu *yo* le taper 2fois ajoute dans le contenu de plop  un second *yo*dans le fichier 
+10. la commande (file) permet de connaitre le type de fichier 
+
