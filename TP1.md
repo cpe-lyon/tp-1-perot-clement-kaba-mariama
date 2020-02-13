@@ -34,5 +34,5 @@
 14. les 5 premières lignes du fichier/var/log/syslog 
   * head /var/log/syslog -n 5
   
-  * tail /var/log/syslog -n 15   les 15 derniers
-  
+  * (tail /var/log/syslog -n 15 )  les 15 derniers
+  * (sed -n "10,20 p" /var/log/syslog) les lignes 10 à 20
