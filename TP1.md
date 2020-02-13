@@ -30,4 +30,9 @@
 10. la commande (file) permet de connaitre le type de fichier 
 11. lorsqu'on crée un lien entre deux fichier quand on change le contenu de l'un l'autre change mais lorsqu'on supprime un e lien se rompe mais que le fichier supprimer disparait.
 12.  la commande (ln -s titi tutu) crée un lien symbolique, meme  effet que la question 11 mais dans ce cas lorsqu'on supprime  titi , le  fichier n'est plus accessible (broken symbolic link )
-13.  
+13. les accourcis clavier permettent d’interrompre (ctrl +s)  et reprendre le défilement à l’écran (ctrl + Q)
+14. les 5 premières lignes du fichier/var/log/syslog 
+  * head /var/log/syslog -n 5
+  
+  * tail /var/log/syslog -n 15   les 15 derniers
+  
