@@ -36,6 +36,8 @@
    * (sed -n "10,20 p" /var/log/syslog) les lignes 10 à 20
   * (tail /var/log/syslog -n 15 )  les 15 derniers
   15. la commande (dmesg | less )  affiche le kernel ring buffer avec moins d'info 
-  16. passwd est un fichier de texte qui contient la liste des comptes sur le système, ainsi que des informations utiles sur ces comptes, comme l'identification de l'utilisateur, du groupe, le répertoire personnel, le shell, etc.  Il doit y avoir, dans le fichier des mots de passe, une ligne par utilisateur, avec le format suivant : account:passwd:UID:GID:GECOS:directory:shell 
+  16. passwd est un fichier de texte qui contient la liste des comptes sur le système, ainsi que des informations utiles sur ces comptes, comme l'identification de l'utilisateur, du groupe, le répertoire personnel, le shell, etc.  Il doit y avoir, dans le fichier des mots de passe, une ligne par utilisateur, avec le format suivant : * account:passwd:UID:GID:GECOS:directory:shell 
 
-  
+17. Aﬀichez seulement la première colonne triée par ordre alphabétique inverse
+*  cat /etc/passwd|cut d: -f1  | sort -r
+18. 
