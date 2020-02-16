@@ -5,10 +5,10 @@
 4. La section 6 du man  decris les jeux  *man 6 intro*
 
 # Navigation dans l’arborescence des fichiers
-1. * cd  /var/log
-2. * cd ./ 
-3. * cd ../ 
-4. * cd - 
+1. cd  /var/log
+2. cd ./ 
+3. cd ../ 
+4. cd - 
 5. On n'a pas la permission pour (cd root)  
 6. sudo c'est poour etre en mode administrateur et pouvoir avoir certaine permission.
 7. Pour crée un dossier *MKdir* un fichier (nano)
@@ -40,8 +40,14 @@
 17. Aﬀichez seulement la première colonne triée par ordre alphabétique inverse
 *  cat /etc/passwd|cut d: -f1  | sort -r
 18. la commande nous donne le nombre d’utilisateurs ayant un compte sur cette machine
- * cat /etc/passwd | awk -F: '{print $ 1}'
+  * cat /etc/passwd | awk -F: '{print $ 1}'
 19. Combien de pages de manuel comportent le mot-cléconversiondans leur description
   * man -k conservation | wc -l 
 20. la commande (find), recherchez tous les fichiers se nommantpasswdprésents sur la machine
   * sudo find -name passwd |wc -l
+21. find -name passwd |wc -l  1> ~/list_passwd_files.txt 2> /dev/null
+22. Il se situe dans ce fichier .bashrc
+23.
+24. Non il n'apparait pas car locate se base sur une base de données qu'il faut synchroniser pour pouvoir voir le fichier qui vient d'être créé.
+
+# Exercice 4. Personnalisation du shell
