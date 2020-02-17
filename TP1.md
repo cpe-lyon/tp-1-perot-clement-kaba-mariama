@@ -47,7 +47,7 @@
   * sudo find -name passwd |wc -l
 21. find -name passwd |wc -l  1> ~/list_passwd_files.txt 2> /dev/null
 22. Il se situe dans ce fichier .bashrc
-23.
+23.La commande locate history.log trouve les fichiers intitulés par le même nom. On le trouve dans le fichier var/log/apt
 24. Non il n'apparait pas car locate se base sur une base de données qu'il faut synchroniser pour pouvoir voir le fichier qui vient d'être créé.
 
 # Exercice 4. Personnalisation du shell
