@@ -51,3 +51,7 @@
 24. Non il n'apparait pas car locate se base sur une base de données qu'il faut synchroniser pour pouvoir voir le fichier qui vient d'être créé.
 
 # Exercice 4. Personnalisation du shell
+
+3. 
+4. \[\e[88m] $HEURE \e[39m]- \e[92m] \u@\h\ \033[39m] : [\033[96m\] $PWD
+
